@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf88435a.chunk.css",
+    "main.js": "/static/js/main.b0125b3c.chunk.js",
+    "main.js.map": "/static/js/main.b0125b3c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0c213a3d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0c213a3d.js.map",
+    "static/css/2.2e99a83d.chunk.css": "/static/css/2.2e99a83d.chunk.css",
+    "static/js/2.46f685a2.chunk.js": "/static/js/2.46f685a2.chunk.js",
+    "static/js/2.46f685a2.chunk.js.map": "/static/js/2.46f685a2.chunk.js.map",
+    "static/js/3.c842b18a.chunk.js": "/static/js/3.c842b18a.chunk.js",
+    "static/js/3.c842b18a.chunk.js.map": "/static/js/3.c842b18a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.2e99a83d.chunk.css.map": "/static/css/2.2e99a83d.chunk.css.map",
+    "static/css/main.bf88435a.chunk.css.map": "/static/css/main.bf88435a.chunk.css.map",
+    "static/js/2.46f685a2.chunk.js.LICENSE.txt": "/static/js/2.46f685a2.chunk.js.LICENSE.txt",
+    "static/media/curriculum.50eebe06.pdf": "/static/media/curriculum.50eebe06.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c213a3d.js",
+    "static/css/2.2e99a83d.chunk.css",
+    "static/js/2.46f685a2.chunk.js",
+    "static/css/main.bf88435a.chunk.css",
+    "static/js/main.b0125b3c.chunk.js"
+  ]
+}
