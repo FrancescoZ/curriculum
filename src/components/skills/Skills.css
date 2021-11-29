@@ -1,0 +1,9 @@
+.skill {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.skill-card {
+    margin: 20px auto;
+    width: 20rem;
+}

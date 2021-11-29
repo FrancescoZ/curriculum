@@ -1,0 +1,34 @@
+.timeline {
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.timeline h1 {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.timeline h3,
+h5 {
+    font-weight: bolder;
+}
+
+.education-date {
+    font-weight: bolder;
+}
+
+.row-container {
+    font-size: 17px;
+}
+
+.justify-content-md-center {
+    margin: 10px
+}
+
+.role-title {
+    color: var(--color-4)
+}
+
+.role {
+    color: var(--color-6)
+}

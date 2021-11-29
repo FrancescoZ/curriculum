@@ -1,0 +1,97 @@
+.home {
+    text-align: left;
+    padding: 5%;
+    padding-top: 0px;
+}
+
+.home h1 {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin: auto;
+  text-transform: uppercase;
+  background: linear-gradient(219deg, 
+    var(--color-1) 19%, 
+    transparent 19%,transparent 20%, 
+    var(--color-2) 20%, var(--color-2)  39%,
+    transparent 39%,transparent 40%, 
+    var(--color-3) 40%,var(--color-3) 59% ,
+    transparent 59%,transparent 60%, 
+    var(--color-4) 60%, var(--color-4) 79%,
+    transparent 79%, transparent 80%, 
+    var(--color-5) 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .home h1 {
+    font-size: 6.5rem;
+  }
+}
+
+.home h1,
+h2,
+h3,
+p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.home-col {
+    padding: 15% 5%;
+}
+.button-home {
+    margin: 5% 3% 5% 0%;
+}
+
+.button-home a:hover,
+:focus {
+    color: #9acd32 !important;
+}
+
+.image-home {
+    width: 50%;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    margin-top: 70%;
+    position: absolute;
+}
+.image-container {
+    text-align: center;
+}
+.scroll {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10%;
+}
+.scroll-container{
+    align-self: flex-end;
+    text-align: center;
+}
+@media (max-width: 1028px) {
+    .home {
+        text-align: center;
+    }
+
+    .image-home {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .image-home {
+        animation: image-home-spin infinite 20s linear;
+    }
+}
+
+@keyframes image-home-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
